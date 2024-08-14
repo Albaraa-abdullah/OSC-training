@@ -1,0 +1,46 @@
+   1   mkdir Baraa
+   2   ls
+   3   cd Baraa
+   4   touch one.txt two.txt there.txt four.txt
+   5   ls
+   6   mkdir BAD
+   7   ls
+   8   cd BAD
+   9   touch bad.txt
+   10  ls
+   11  cd Baraa
+   12  cd..
+   13  cd /home/osc/Baraa
+   14  mv one.txt /home/osc/Downloads
+   15  cd
+   16  ls
+   17  cd Downloads
+   18  ls
+   19  cd
+   20  cp one.txt Downloads
+   21  cd Downloads
+   22  cp one.text /home/osc/Downloads
+   23  ls
+   24  mv one.txt copy.txt
+   25  ls
+   26  cd /home/osc/Baraa
+   27  nano two.txt
+   28  cat two.txt
+   29  nano two.txt
+   30  cat two.txt
+   31  nano there.txt
+   32  cat there.txt
+   33  mv there.txt hello.txt
+   34  ls
+   35  rm four.txt
+   36  ls
+   37  rm-r BAD
+   38  rm -r BAD
+   39  ls
+   40  cd
+   41  mkdir task-1
+   42  ls
+   43  cd task-1
+   44  touch solution.txt
+   45  ls
+   46  history >>solution.txt;
