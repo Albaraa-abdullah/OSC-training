@@ -1,18 +1,20 @@
-  1    git clone https://github.com/Albaraa-abdullah/OSC-training.git
-  2    cd OSC-training
-  3    mkdir task-2
-  4    cd task-2
-  5    echo "Hello world" >greeting.txt
-  6    git add greeting.txt
-  7    git commit -m "Added greeting"
-  8    git checkout -b intro
-  9    echo "I Love Git" >>greeting.txt
-  10   git add greeting.txt
-  11   git commit -m "Added I Love Git"
-  12   git checkout main
-  13   git merge intro
-  14   git tag v1
-  15   git push origin main
-  16   git push origin --tags
-  17   touch solution.txt
-  18   history >>solution.txt;
+  1    git config --global user.name Albaraa-abdullah
+  2    git config --global user.email baraaabdullah@gmail.com
+  3    git clone https://github.com/Albaraa-abdullah/OSC-training.git
+  4    cd OSC-training
+  5    mkdir task-2
+  6    cd task-2
+  7    echo "Hello world" >greeting.txt
+  8    git add greeting.txt
+  9    git commit -m "Added greeting"
+  10   git checkout -b intro
+  11   echo "I Love Git" >>greeting.txt
+  12   git add greeting.txt
+  13   git commit -m "Added I Love Git"
+  14   git checkout main
+  15   git merge intro
+  16   git tag v1
+  17   git push origin main
+  18   git push origin --tags
+  19   touch solution.txt
+  20   history >>solution.txt;
