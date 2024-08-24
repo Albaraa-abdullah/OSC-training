@@ -7,14 +7,10 @@
   7    touch sample.txt
   8    chmod 640 ~/task_dir/sample.txt
   9    sudo chown newuser ~/task_dir/sample.txt
-  10   sudo chown :newgroup ~/task_dir/sample.txt
-  11   sudo deluser --remove-home newuser
-  12   sudo apt update
-  13   sudo apt install lolcat
-  14   echo "I Love OSC" | lolcat
-  15   sudo apt remove lolcat
-  16   cd
-  17   mkdir task-4
-  18   cd task-4
-  19   touch solution.txt
-  20   history >>solution.txt
+  10   sudo groupdel newgroup
+  11   sudo chown :newgroup ~/task_dir/sample.txt
+  12   sudo deluser --remove-home newuser
+  13   sudo apt update
+  14   sudo apt install lolcat
+  15   echo "I Love OSC" | lolcat
+  16   sudo apt remove lolcat
